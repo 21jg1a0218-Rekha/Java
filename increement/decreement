@@ -1,0 +1,19 @@
+//Perform increement and decreement operations
+package packages;
+
+public class Increment_decreement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=9;
+		int y=6;
+		int sum=x+y;
+		System.out.println(sum);
+		sum++;
+		System.out.println(sum);
+		sum--;
+		System.out.println(sum);
+
+	}
+
+}
