@@ -1,0 +1,28 @@
+//Perform Arthimatic operations
+package packages;
+public class Datatypes {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x=10;
+		int y=5;
+		int sum=x+y;
+		double a=1.777;
+		double t=5.888;
+		double sub=a-t;
+		double div=x/y;
+		int mul=x*y;
+		double mod=x%y;
+		char ch='k';
+		char v='r';
+		boolean g=true;
+		System.out.println(sum);
+		System.out.println(sub);
+		System.out.println(div);
+		System.out.println(mul);
+		System.out.println(mod);
+		System.out.println(ch);
+		System.out.println(g);
+		
+	}
+
+}
