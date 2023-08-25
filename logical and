@@ -1,0 +1,18 @@
+//To perform the logical and operator
+package packages;
+
+public class Logical {
+	public static void main(String[] args)
+	{
+		int n1=10,n2=9,n3=6;
+		if(n1>n2 && n1>n3)
+		{
+			System.out.println(n1+"is greater than the both numbers");
+		}
+		else
+		{
+			System.out.println("n1 is small than others");
+		}
+	}
+
+}
