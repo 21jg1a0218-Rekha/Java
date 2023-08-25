@@ -1,0 +1,18 @@
+//To perform logic or operation
+package packages;
+
+public class Logical {
+	public static void main(String[] args)
+	{
+		int n1=9,n2=7,n3=10;
+		if(n1>n2|| n1>n3)
+		{
+			System.out.println("Given condition is true");
+		}
+		else
+		{
+			System.out.println("Given condition is false");
+		}
+	}
+
+}
