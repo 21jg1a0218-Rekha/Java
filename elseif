@@ -1,0 +1,35 @@
+//to perform conditions
+package packages;
+
+public class Conditional_statements {
+
+	public static void main(String[] args) {
+		int marks=50;
+		if(marks>=95)
+		{
+			System.out.println("A grade");
+		}
+		else if(marks>=85)
+		{
+			System.out.println("B grade");
+		}
+		else if(marks>=75)
+		{
+			System.out.println("C grade");
+		}
+		else if(marks>=65)
+		{
+			System.out.println("D grade");
+		}
+		else if(marks>=55)
+		{
+			System.out.println("E grade");
+		}
+		else
+		{
+			System.out.println("Fail");
+		}
+
+	}
+
+}
