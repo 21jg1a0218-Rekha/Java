@@ -1,0 +1,23 @@
+//To perform string search operations
+package packages;
+
+public class Stringsearch {
+
+	public static void main(String[] args) {
+		String s1="I am learning Java";
+		String s2="Java";
+		String s3="java";
+		System.out.println(s1.contains(s2));
+		System.out.println(s1.toLowerCase().contains(s3.toLowerCase()));
+		System.out.println(s1.startsWith("l"));
+		System.out.println(s2.startsWith("J"));
+		System.out.println(s1.endsWith(s2));
+		System.out.println(s3.endsWith("A"));
+		System.out.println(s1.indexOf("Java"));
+		String s4="I am learning Java and Java is popular programming language";
+		System.out.println(s4.indexOf("Java",15));
+		System.out.println(s4.lastIndexOf("language"));
+		
+	}
+
+}
