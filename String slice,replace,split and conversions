@@ -1,0 +1,32 @@
+//To perform slices,split,conversions,and replace on strings
+package packages;
+
+public class Stringslice {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str1="ABCDE";
+		System.out.println(str1.charAt(2));  //return the character at given index :C
+		System.out.println(str1.substring(2)); //return the charcters start at given index :CDE
+		String str2="ab_c_d_e"; 
+		String str3="_";
+		String [] arr=str2.split(str3); //By using split to split the characters at underscor
+		for(String x:arr)
+		{
+			System.out.println(x);
+		}
+		String str4="I learn Java123 and 123 is a password";
+		System.out.println(str4.replace("123","K"));  //Replace all the 123 with k
+		String str6="My name was kanchana. My name was Rekha";  //replace all was with is
+		System.out.println(str6.replaceAll("was","is"));
+		int n=120;
+		System.out.println(Integer.toString(n));  // conversions
+		System.out.println(Integer.toBinaryString(n));
+		System.out.println(Integer.toHexString(n));
+		System.out.println(Integer.toOctalString(n));
+			
+
+
+	}
+
+}
