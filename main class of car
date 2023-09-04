@@ -1,0 +1,19 @@
+//main class of car
+package oops;
+
+public class Cars_main {
+
+	public static void main(String[] args) {
+		Cars c1=new Cars();
+		c1.color="red";
+		c1.model="tata";
+		c1.Displayout();
+		
+		Cars c2=new Cars();
+		c2.model="suv";
+		c2.color="blue";
+		c2.type="olvo";
+		c2.Displayout();
+	}
+
+}
