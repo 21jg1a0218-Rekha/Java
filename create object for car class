@@ -1,0 +1,12 @@
+//To create object for class car 
+package oops;
+public class Cars {
+	String type="tata";
+	String model=" ";
+	String color="white";
+	
+	public void Displayout()
+	{
+		System.out.println(type +" " + model +" "+color);
+	}
+}
