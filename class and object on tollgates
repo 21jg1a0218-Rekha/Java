@@ -1,0 +1,37 @@
+//to create class and object about toll gates
+package Constructor;
+
+public class Road_toll {
+	
+	String type=" ";
+	int tyres;
+	
+	public void toll_amount()
+	{
+		if(tyres ==2)
+			System.out.println("total amount is 0");
+		else if(tyres ==4)
+			System.out.println("total amount is 10");
+		else if(tyres >4)
+			System.out.println("total amount is 20");
+		else
+			System.out.println("incorrect no of tyres");
+		
+	}
+	
+}
+//to create object
+package Constructor;
+
+public class Road_toll_main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Road_toll s1=new Road_toll();
+		s1.type="car";
+		s1.tyres=6;
+		s1.toll_amount();
+
+	}
+
+}
