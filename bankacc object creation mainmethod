@@ -1,0 +1,17 @@
+package Constructor;
+
+public class Bankacc_main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Bankacc b1=new Bankacc(123456,"kanchana",10000000);
+		b1.displaybal();
+		b1.deposit(40);
+		b1.displaybal();
+		b1.withdraw(10000);
+		b1.displaybal();
+		
+
+	}
+
+}
