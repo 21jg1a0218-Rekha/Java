@@ -1,0 +1,23 @@
+// to write a programm for main method to a polygon class
+package Inheritance;
+
+public class MainPolygon {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Rectangle s1=new Rectangle();
+		//Triangle s1=new Triangle();
+		s1.setBase(15.8);
+		s1.setHeight(50.7);
+		s1.calarea();
+		Triangle s2=new Triangle();
+		s2.setBase(15.8);
+		s2.setHeight(50.7);
+		s2.calarea();
+
+	
+		
+
+	}
+
+}
