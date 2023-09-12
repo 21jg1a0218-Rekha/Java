@@ -1,0 +1,44 @@
+//to create a polygon class
+package Inheritance;
+
+public class Polygon {
+	double base;
+	double height;
+	public double getBase() {
+		return base;
+	}
+	public void setBase(double base) {
+		this.base = base;
+	}
+	public double getHeight() {
+		return height;
+	}
+	public void setHeight(double height) {
+		this.height = height;
+	}
+
+}
+
+//to create a traingle class
+package Inheritance;
+
+public class Triangle extends Polygon {
+	public void calarea()
+	{
+		System.out.println(0.5*base*height);
+	}
+
+	
+}
+
+//to create a rectangular class
+package Inheritance;
+
+public class Rectangle extends Polygon{
+	public void calarea()
+	{
+		System.out.println(base*height);
+
+	}
+
+}
