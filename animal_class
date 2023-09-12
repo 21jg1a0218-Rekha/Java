@@ -1,0 +1,10 @@
+//to create a animal class
+package Inheritance;
+
+public class Animal {
+	public void WhoAmI()
+	{
+		System.out.println("I am animal");
+	}
+
+}
