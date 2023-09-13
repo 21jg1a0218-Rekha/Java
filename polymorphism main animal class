@@ -1,0 +1,18 @@
+// to create a main class for animal class
+package Polymorphism;
+
+public class Mainani {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Animalclass a=new Animalclass();
+		a.WhoAmI();
+		a=new Rabbit();
+		a.WhoAmI();
+		a=new Elephant();
+		a.WhoAmI();
+		
+
+	}
+
+}
