@@ -1,0 +1,38 @@
+// To create a class A
+package Inheritance;
+
+public class A {
+
+	int n=100;
+	public void dothis()
+	{
+		System.out.println("Do the form A");
+	}
+}
+
+
+//to create a class b 
+package Inheritance;
+
+public class B extends A{
+	//public static B b1;
+	int n=200;
+	public void dothis()
+	{
+		System.out.println("Do the form B");
+	}
+	public void xyz()
+	{
+		dothis();
+		System.out.println("xyz is executed"+n);
+	}
+	public void abc()
+	{
+		super.dothis();
+		System.out.println("abc executed"+super.n);
+	}
+
+
+
+
+}
