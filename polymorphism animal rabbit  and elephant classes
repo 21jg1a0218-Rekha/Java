@@ -1,0 +1,31 @@
+// to create a class animal 
+package Polymorphism;
+
+public class Animalclass {
+	public void WhoAmI()
+	{
+		System.out.println("I am animal");
+	}
+}
+
+// to create a rabbit class
+package Polymorphism;
+
+public class Rabbit extends Animalclass {
+	public void WhoAmI()
+	{
+		System.out.println("I am a rabbit");
+	}
+}
+
+//to create a elephant class
+package Polymorphism;
+
+public class Elephant extends Animalclass {
+
+	public void WhoAmI()
+	{
+		System.out.println("I am elephant");
+	}
+
+}
