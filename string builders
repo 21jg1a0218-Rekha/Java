@@ -1,0 +1,32 @@
+// to write a code on string builders
+package Special_classes;
+
+public class String_builders {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StringBuilder str1=new StringBuilder("I");
+		System.out.println(str1);
+		str1.append("like");
+		str1.append("java");
+		System.out.println(str1);
+		StringBuilder str2=new StringBuilder("Learning is fun");
+		str2.insert(9, "java");
+		System.out.println(str2);
+		str2.replace(1, 4, "kava");
+		System.out.println(str2);
+		str2.delete(9, 13);
+		System.out.println(str2);
+		str2.reverse();
+		System.out.println(str2);
+
+
+
+
+				
+
+		
+
+	}
+
+}
