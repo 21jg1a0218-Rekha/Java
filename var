@@ -1,0 +1,18 @@
+// to write a program on var 
+package Special_classes;
+
+import java.util.*;
+
+public class Var {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		var s=new Scanner(System.in);
+		var a=s.nextInt();
+		System.out.println(a);
+	;
+	
+
+	}
+
+}
